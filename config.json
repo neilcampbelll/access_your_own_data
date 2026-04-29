@@ -1,0 +1,12 @@
+
+{
+"all_countries" : ["BE", "DE", "DK", "EE", "FI", "FR", "IE",
+"LV", "LT", "NL", "PL", "SE", "PT", "ES", "GB", "IS", "NO","FAR","GRE", "RU"],
+"countries": [ "DK" ],
+"years": 2025,
+"data_dir": "data",
+"report_dir": "reports",
+"LE_session_ID": "59685",
+"VE_session_ID": "59684",
+"db_connection": "Driver={SQL Server};Server=SQL10;Database=DATSU;Trusted_Connection=yes"
+}

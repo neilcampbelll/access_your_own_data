@@ -8,7 +8,7 @@ library(dplyr)
 source("set_token.R")
 
 # settings
-config <- read_json("QC/config.json", simplifyVector = TRUE)
+config <- read_json("config.json", simplifyVector = TRUE)
 config$VE_session_ID <- trimws(strsplit(as.character(config$VE_session_ID), ",")[[1]])
 config$LE_session_ID <- trimws(strsplit(as.character(config$LE_session_ID), ",")[[1]])
 # create directories
